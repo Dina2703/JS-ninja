@@ -4,7 +4,7 @@ console.log('hello, world');
 let email = 'example@mail.com';
 console.log(email);
 
-//string concatenation 
+// string concatenation 
 let firstName = "Sam";
 let secondName = "Sanderson";
 let fullName = firstName + ' '+ secondName;
@@ -17,4 +17,12 @@ console.log(secondName[2]);
 // string lenght
 console.log(fullName.length);
 
-//string methods
+// string methods (with dot notation and curly braces).
+// these methods below DO NOT alter(change) the original value that we used them on.
+console.log(fullName.toLocaleUpperCase());
+let result = fullName.toLowerCase();
+console.log(result, fullName);
+
+//finding an index of a character
+let index = email.indexOf('@');
+console.log(index);
