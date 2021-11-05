@@ -45,12 +45,12 @@
 // }
 // console.log('the loop finished');
 
-const names = ['Bob', 'Sam', 'John'];
-for(let i = 0; i < names.length; i++){
-    // console.log(`${names[i]}! `);
-    let html = `<div>${names[i]}</div>`;
-    console.log(html);
-}
+// const names = ['Bob', 'Sam', 'John'];
+// for(let i = 0; i < names.length; i++){
+//     console.log(`for loop itertion for ${names[i]}! `);
+    // let html = `<div>${names[i]}</div>`;
+    // console.log(html);
+//}
 //WHILE LOOP
 // let i = 0;
 // while(i < 5) {
@@ -58,12 +58,18 @@ for(let i = 0; i < names.length; i++){
 //     i++;
 // }
 
-let i = 0;
-while(i < names.length) {
-    console.log(`while loop iteration for ${names[i]}`);
-    i++;
-}
+// let i = 0;
+// while(i < names.length) {
+//     console.log(`while loop iteration for ${names[i]}`);
+//     i++;
+// }
 
+//Do ... WHILE LOOP
+// let i = 5;
+// do {
+//     console.log(`DO_WHILE loop iteration number}`);
+//     i++;
+// } while(i < 5);
 
 
 
