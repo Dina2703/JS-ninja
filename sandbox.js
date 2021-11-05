@@ -72,11 +72,14 @@
 // } while(i < 5);
 
 //IF STATEMENTS
-const password = 'pass';
-if(password.length >= 8){
+const password = 'passndjfkjfkd';
+
+if(password.length >= 12){
+    console.log('that password is super long!')
+}else if(password.length >= 8){
     console.log('that password is long enough!');
 } else {
-    console.log('that password is too short');
+    console.log('that password is not long enough');
 }
 
 
