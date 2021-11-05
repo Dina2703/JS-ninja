@@ -38,9 +38,10 @@
 // console.log(result4);
 
 //LOOPS
-//for loops
+
+//FOR LOOP
 // for(let i = 0; i < 5; i++){
-//     console.log(`the iteration number ${i}`)
+//     console.log(`for loop the iteration number ${i}`)
 // }
 // console.log('the loop finished');
 
@@ -50,8 +51,18 @@ for(let i = 0; i < names.length; i++){
     let html = `<div>${names[i]}</div>`;
     console.log(html);
 }
+//WHILE LOOP
+// let i = 0;
+// while(i < 5) {
+//     console.log(`while loop iteration nunber ${i}`);
+//     i++;
+// }
 
-
+let i = 0;
+while(i < names.length) {
+    console.log(`while loop iteration for ${names[i]}`);
+    i++;
+}
 
 
 
