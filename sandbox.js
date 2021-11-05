@@ -90,16 +90,20 @@
 
 //logical operators = OR ||  AND &&
 
-const password = 'passwor@ma';
-if(password.length >= 12 && password.includes(Number)){
-    console.log('that password is super long!')
-}else if(password.length >= 8 && password.includes('@')){
-    console.log('that password is strong enough!');
-} else {
-    console.log('that password is not strong enough');
+// const password = 'passwor@ma';
+// if(password.length >= 12 && password.includes(Number)){
+//     console.log('that password is super long!')
+// }else if(password.length >= 8 && password.includes('@')){
+//     console.log('that password is strong enough!');
+// } else {
+//     console.log('that password is not strong enough');
+// }
+
+//logical NOT(!)
+let user = false;
+if(!user){
+    console.log("user is true");
 }
-
-
 
 
 
