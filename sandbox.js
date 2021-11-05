@@ -72,19 +72,32 @@
 // } while(i < 5);
 
 //IF STATEMENTS
-const password = 'passndjfkjfkd';
+// const password = 'password1234';
+// if(password.length >= 12){
+//     console.log('that password is super long!')
+// }else if(password.lengt// const password = 'password1234';
+// if(password.length >= 12){
+//     console.log('that password is super long!')
+// }else if(password.length >= 8){
+//     console.log('that password is long enough!');
+// } else {
+//     console.log('that password is not long enough');
+// }h >= 8){
+//     console.log('that password is long enough!');
+// } else {
+//     console.log('that password is not long enough');
+// }
 
-if(password.length >= 12){
+//logical operators = OR ||  AND &&
+
+const password = 'passwor@ma';
+if(password.length >= 12 && password.includes(Number)){
     console.log('that password is super long!')
-}else if(password.length >= 8){
-    console.log('that password is long enough!');
+}else if(password.length >= 8 && password.includes('@')){
+    console.log('that password is strong enough!');
 } else {
-    console.log('that password is not long enough');
+    console.log('that password is not strong enough');
 }
-
-
-
-
 
 
 
